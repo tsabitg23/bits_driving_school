@@ -2356,6 +2356,10 @@ span.email-notes {
   font-weight: bold;
   font-size: 3rem;
 }
+
+.text-logo-footer{
+  color: black !important;
+}
 .logo-car{
   width: 48px;
   height: 48px;

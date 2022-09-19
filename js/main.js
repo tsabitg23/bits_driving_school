@@ -182,11 +182,12 @@
     var knob_tex = $('.knob');
     knob_tex.each(function() {
       var $this = $(this),
-        knobVal = $this.attr('data-rel');
+        knobVal = $this.attr('data-rel'),
+        knobCount = $this.attr('data-count');
 
       $this.knob({
         'draw': function() {
-          $(this.i).val(this.cv + '%')
+          $(this.i).val(knobCount)
         }
       });
 
